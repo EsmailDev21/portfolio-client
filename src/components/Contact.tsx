@@ -9,9 +9,7 @@ function Contact() {
         <p className="text-lg mb-4 text-gray-400">
           Email: esmailkhorchani.dev@gmail.com
         </p>
-        <p className="text-lg mb-4 text-gray-400">
-          Location: Birlahmar, Tatawin, Tunisia
-        </p>
+
         <div className="flex flex-row align-center justify-center space-x-2">
           <div className="flex justify-center space-x-4 mt-8">
             <a
