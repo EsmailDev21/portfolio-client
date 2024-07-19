@@ -12,13 +12,31 @@ function Contact() {
         <p className="text-lg mb-4 text-gray-400">
           Location: Birlahmar, Tatawin, Tunisia
         </p>
-        <div className="flex justify-center space-x-4 mt-8">
-          <a
-            href="https://github.com/EsmailDev21"
-            className="text-2xl hover:text-turquoise"
-          >
-            <i className="fab fa-github"></i> GitHub
-          </a>
+        <div className="flex flex-row align-center justify-center space-x-2">
+          <div className="flex justify-center space-x-4 mt-8">
+            <a
+              href="https://github.com/EsmailDev21"
+              className="text-2xl hover:text-turquoise"
+            >
+              <i className="fab fa-github"></i> GitHub
+            </a>
+          </div>
+          <div className="flex justify-center space-x-4 mt-8">
+            <a
+              href="https://www.linkedin.com/in/khorchani-esmail-499949259/"
+              className="text-2xl hover:text-turquoise"
+            >
+              <i className="fab fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <div className="flex justify-center space-x-4 mt-8">
+            <a
+              href="https://www.linkedin.com/in/khorchani-esmail-499949259/"
+              className="text-2xl hover:text-turquoise"
+            >
+              <i className="fab fa-facebook"></i> Facebook
+            </a>
+          </div>
         </div>
       </div>
     </section>
