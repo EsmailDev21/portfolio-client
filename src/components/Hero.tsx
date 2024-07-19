@@ -36,7 +36,7 @@ function Hero() {
           Full Stack Developer
         </h2>
         <p className="text-lg mb-8 font-semibold text-gray-300">
-          React.js | Node.js | Nest.js
+          React.js | React Native | Nest.js
         </p>
         <p className="text-lg text-start w-96 mb-8 text-gray-400">
           Well-qualified Full Stack Developer familiar with a wide range of
@@ -47,14 +47,14 @@ function Hero() {
         </p>
         <div className="flex space-x-4 mb-8">
           <motion.button
-            className="bg-turquoise hover:bg-teal-400 text-slate-950 font-normal py-2 px-4 rounded-full shadow-xl shadow-teal-950 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+            className="bg-turquoise hover:bg-teal-400 hover:border-turquoise text-slate-950 font-normal py-2 px-4 rounded-full shadow-xl shadow-teal-950 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
             variants={buttonVariants}
             whileHover="hover"
           >
-            My Work
+            Order a Service
           </motion.button>
           <motion.button
-            className="bg-darkslateblue hover:bg-indigo-800 text-white font-normal py-2 px-4 rounded-full shadow-lg shadow-indigo-950 hover:shadow-indigo-900 transition-shadow duration-300 ease-in-out"
+            className="bg-indigo-800 hover:bg-indigo-700 text-white font-normal py-2 px-10 rounded-full shadow-lg shadow-indigo-950 hover:shadow-indigo-900 transition-shadow duration-300 ease-in-out"
             variants={buttonVariants}
             whileHover="hover"
           >
