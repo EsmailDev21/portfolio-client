@@ -18,7 +18,7 @@ function Contact() {
               href="https://github.com/EsmailDev21"
               className="text-2xl hover:text-turquoise"
             >
-              <i className="fab fa-github"></i> GitHub
+              <i className="fab fa-github"></i>
             </a>
           </div>
           <div className="flex justify-center space-x-4 mt-8">
@@ -26,15 +26,15 @@ function Contact() {
               href="https://www.linkedin.com/in/khorchani-esmail-499949259/"
               className="text-2xl hover:text-turquoise"
             >
-              <i className="fab fa-linkedin"></i> LinkedIn
+              <i className="fab fa-linkedin"></i>
             </a>
           </div>
           <div className="flex justify-center space-x-4 mt-8">
             <a
-              href="https://www.linkedin.com/in/khorchani-esmail-499949259/"
+              href="https://www.facebook.com/iza.ya.5030/"
               className="text-2xl hover:text-turquoise"
             >
-              <i className="fab fa-facebook"></i> Facebook
+              <i className="fab fa-facebook"></i>
             </a>
           </div>
         </div>
