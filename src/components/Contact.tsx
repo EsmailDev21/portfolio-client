@@ -23,7 +23,7 @@ function Contact() {
           </div>
           <div className="flex justify-center space-x-4 mt-8">
             <a
-              href="https://www.linkedin.com/in/khorchani-esmail-499949259/"
+              href="https://www.linkedin.com/in/esmail-khorchani-499949259"
               className="text-2xl hover:text-turquoise"
             >
               <i className="fab fa-linkedin"></i>
