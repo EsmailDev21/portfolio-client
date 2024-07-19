@@ -1,5 +1,3 @@
-import React from "react";
-
 function Clients() {
   return (
     <section className="section bg-white text-center py-16 border-t">

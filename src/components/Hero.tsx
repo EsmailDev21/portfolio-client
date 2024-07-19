@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import developerImage from "../assets/developer-3d.jpeg"; // Ensure this path is correct
 

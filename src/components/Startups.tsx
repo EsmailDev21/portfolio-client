@@ -1,5 +1,3 @@
-import React from "react";
-
 function Startups() {
   return (
     <section className="section bg-primary text-center py-16">

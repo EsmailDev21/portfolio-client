@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from "react";
 
 const buttonVariants = {
   hover: {
@@ -11,10 +10,6 @@ const buttonVariants = {
   },
 };
 
-const textVariants = {
-  hidden: { opacity: 0, y: -50 },
-  visible: { opacity: 1, y: 0 },
-};
 function Navbar() {
   return (
     <nav

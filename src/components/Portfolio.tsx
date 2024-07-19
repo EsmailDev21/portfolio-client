@@ -1,4 +1,3 @@
-import React from "react";
 import { CarouselComp } from "./base/Carousel";
 import elearning1 from "../assets/elearningtt/elearning.png";
 import elearning2 from "../assets/elearningtt/elearning2.png";
