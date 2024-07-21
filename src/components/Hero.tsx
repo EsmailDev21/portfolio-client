@@ -63,12 +63,13 @@ function Hero() {
         </div>
       </motion.div>
       <motion.div
-        className="relative w-64 h-64 md:w-96 md:h-96"
+        className="relative w-64 h-64 md:w-96 md:h-96 flex items-center justify-center"
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 to-transparent bg-opacity-90 rounded-full"></div>
+        {/* Shadow layer */}
+        <div className="absolute inset-0 bg-turquoise opacity-50 rounded-full transform -translate-x-1/2 -translate-y-1/2 z-[-1]"></div>
 
         <motion.img
           src={developerImage}

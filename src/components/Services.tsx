@@ -12,7 +12,8 @@ const services = [
     faq: [
       {
         question: "What technologies do you use?",
-        answer: "I use React, Node.js, Nest.js, HTML, CSS, and JavaScript.",
+        answer:
+          "I use React, Node.js, Nest.js, Next.js, TailwindCSS, and TypeScript.",
       },
       {
         question: "How long does it take to build a web application?",
@@ -129,8 +130,7 @@ const services = [
     faq: [
       {
         question: "What tools do you use for design?",
-        answer:
-          "I use tools like Figma, Sketch, and Adobe XD for UI/UX design.",
+        answer: "I use tools like Figma and Sketch for UI/UX design.",
       },
       {
         question: "How do you ensure the usability of the designs?",
