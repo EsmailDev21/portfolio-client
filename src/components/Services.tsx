@@ -36,7 +36,7 @@ const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleOrderClick = (service) => {
+  const handleOrderClick = (service: any) => {
     setSelectedService(service);
     setIsModalOpen(true);
   };

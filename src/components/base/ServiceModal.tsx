@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const ServiceModal = ({ isOpen, onClose, service }) => {
+const ServiceModal = ({ isOpen, onClose, service }: any) => {
   if (!isOpen) return null;
 
   return (
