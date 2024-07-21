@@ -17,8 +17,8 @@ function Navbar() {
       className="fixed top-0 left-0 m-4 rounded-full py-4 px-8 bg-slate-900 bg-opacity-60 backdrop-blur-md z-10 flex justify-between items-center"
     >
       <div className="flex flex-row items-end">
-        <div className="text-3xl text-turquoise  font-thin">Esmail</div>
-        <div className="text-lg text-gray-300  font-semibold">Dev</div>
+        <div className="text-3xl text-turquoise  font-thin">StackedBy</div>
+        <div className="text-lg text-gray-300  font-semibold">Esmail</div>
       </div>
 
       <div className="space-x-4">
