@@ -8,11 +8,13 @@ interface CarouselProps {
 const Carousel: React.FC<CarouselProps> = ({ images }) => {
   const [current, setCurrent] = useState(0);
 
-  const nextSlide = () => {
+  const nextSlide = (e: React.MouseEvent) => {
+    e.stopPropagation();
     setCurrent((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
 
-  const prevSlide = () => {
+  const prevSlide = (e: React.MouseEvent) => {
+    e.stopPropagation();
     setCurrent((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
