@@ -20,7 +20,7 @@ function Hero() {
   return (
     <motion.section
       id="home"
-      className="flex flex-col md:flex-row w-full items-center justify-around relative py-12 px-4 md:px-8"
+      className="flex flex-col mt-10 md:flex-row w-full items-center justify-around relative py-12 px-4 md:px-8"
       initial="hidden"
       animate="visible"
       transition={{ duration: 0.5 }}
@@ -39,7 +39,7 @@ function Hero() {
           Full Stack Developer
         </h2>
         <p className="text-base sm:text-lg md:text-xl mb-8 font-semibold text-gray-300">
-          React.js | React Native | Nest.js
+          React.js | React Native | Nest.js | Next.js
         </p>
         <p className="text-sm sm:text-base md:text-lg text-gray-400 w-full max-w-lg mb-8">
           Well-qualified Full Stack Developer familiar with a wide range of
@@ -50,7 +50,7 @@ function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-8">
           <motion.button
-            className="bg-turquoise hover:bg-teal-400 hover:border-turquoise text-slate-950 font-normal py-2 px-4 rounded-full shadow-xl shadow-teal-950 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
+            className="bg-turquoise hover:bg-teal-400 hover:border-turquoise text-slate-800 font-bold py-2 px-4 rounded-full shadow-xl shadow-teal-950 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
             variants={buttonVariants}
             whileHover="hover"
             onClick={() =>
@@ -62,7 +62,7 @@ function Hero() {
             Order a Service
           </motion.button>
           <motion.button
-            className="bg-indigo-800 hover:bg-indigo-700 text-white font-normal py-2 px-4 rounded-full shadow-lg shadow-indigo-950 hover:shadow-indigo-900 transition-shadow duration-300 ease-in-out"
+            className="bg-indigo-800 hover:bg-indigo-700 text-turquoise font-bold py-2 px-4 rounded-full shadow-lg shadow-indigo-950 hover:shadow-indigo-900 transition-shadow duration-300 ease-in-out"
             variants={buttonVariants}
             whileHover="hover"
           >
