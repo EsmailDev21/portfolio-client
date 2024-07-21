@@ -9,7 +9,7 @@ import cityshop1 from "../assets/cityshop/main.png";
 import similar from "../assets/tradingsystem/similar.png";
 import home from "../assets/tradingsystem/home.png";
 import signup from "../assets/tradingsystem/signup.png";
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 import Modal from "./base/Modal";
 
 function Portfolio() {
