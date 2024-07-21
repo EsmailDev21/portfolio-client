@@ -69,7 +69,6 @@ function Hero() {
         transition={{ duration: 0.5, delay: 0.3 }}
       >
         {/* Shadow layer */}
-        <div className="absolute inset-0 bg-turquoise opacity-50 rounded-full transform -translate-x-1/2 -translate-y-1/2 z-[-1]"></div>
 
         <motion.img
           src={developerImage}
