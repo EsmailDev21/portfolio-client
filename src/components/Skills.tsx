@@ -17,7 +17,7 @@ function Skills() {
 
   return (
     <section id="skills" className="py-20 px-4">
-      <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-turquoise">
+      <h2 className="text-3xl md:text-5xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-indigo-600">
         Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

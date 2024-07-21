@@ -5,9 +5,10 @@ import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
+    <>
     <div className="relative bg-gradient-to-r from-slate-900 to-slate-950 min-h-screen text-white overflow-hidden">
       {/* Wavy Background SVG */}
       <svg
@@ -29,6 +30,8 @@ function App() {
       <Education />
       <Contact />
     </div>
+    <Analytics />
+    </>
   );
 }
 
