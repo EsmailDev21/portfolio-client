@@ -53,6 +53,11 @@ function Hero() {
             className="bg-turquoise hover:bg-teal-400 hover:border-turquoise text-slate-950 font-normal py-2 px-4 rounded-full shadow-xl shadow-teal-950 transition-transform duration-200 ease-in-out hover:scale-[1.02]"
             variants={buttonVariants}
             whileHover="hover"
+            onClick={() =>
+              alert(
+                "Soon , use the email or linkedIn accounts in the contact section instead!"
+              )
+            }
           >
             Order a Service
           </motion.button>

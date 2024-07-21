@@ -164,7 +164,12 @@ const ServiceModal = ({ isOpen, onClose, service }: any) => {
         </div>
         <button
           className="bg-gradient-to-r from-turquoise to-teal-400 hover:from-teal-400 hover:to-teal-600 text-slate-950 font-bold py-2 px-4 rounded-full w-full"
-          onClick={onClose}
+          onClick={() => {
+            alert(
+              "Soon , use the email or linkedIn accounts in the contact section instead!"
+            );
+            onClose();
+          }}
         >
           Order Now
         </button>
